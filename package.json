@@ -1,0 +1,29 @@
+{
+  "name": "babylon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "babylonjs-gltf2interface": "^7.8.2",
+    "postcss-nested": "^6.0.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^7.8.2",
+    "@babylonjs/gui": "^7.8.2",
+    "@babylonjs/inspector": "^7.8.2",
+    "@babylonjs/ktx2decoder": "^7.8.2",
+    "@babylonjs/loaders": "^7.8.2",
+    "@babylonjs/materials": "^7.8.2",
+    "@babylonjs/post-processes": "^7.8.2",
+    "@babylonjs/procedural-textures": "^7.8.2",
+    "@babylonjs/serializers": "^7.8.2",
+    "@types/node": "^20.12.12"
+  }
+}
